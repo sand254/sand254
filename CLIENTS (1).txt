@@ -1,0 +1,523 @@
+				INSURANCE.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My insurance</title>
+    <link rel="stylesheet" href="insurance.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="header">
+    <nav>
+        <label class="logo">MY WEB INSURANCE </label>
+        <ul>
+            <li><a class="active" href="#"><i class="fa fa-home"></i> Home</a></li> 
+            <li><a href="about.html"><i class="fa fa-info-circle"></i> About</a></li>
+            <li><a href="services.html"><i class="fa fa-wrench"></i> Services</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i> Contacts </a></li>
+            <li><a href="inquiry.html"><i class="fa fa-question-circle"></i> Inqueries</a></li>
+
+        </ul>
+    </nav>
+</div>
+</body>
+</html>
+                  
+                                                                       INSURANCE.CSS
+
+*{
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(automated.jpeg);
+    background-position:center;
+    background-size:auto;
+    margin: 0;
+    height: 100vh;
+    
+}
+.header{
+    background-color:#808d97;
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    align-items:center;
+}
+nav{
+    background-color:#56595b;
+    width:100%;
+    height: 100px;
+}
+label.logo{
+    color:whitesmoke;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 80px;
+}
+nav ul{
+    float: right;
+    margin-right :10px; 
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-transform:uppercase;
+    font-size:17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #628cad;
+    transition: .5s;
+}
+
+				ABOUT.HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our Insurance</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header>
+        <h1>About Our Insurance</h1>
+    </header>
+
+    <main class="flex-container">
+        <section class="about">
+            <h2>Our Mission</h2>
+            <p>We are dedicated to providing reliable and comprehensive insurance coverage that brings peace of mind to individuals and businesses alike. Our commitment is to protect what matters most to you.</p>
+        </section>
+
+        <section class="values">
+            <h2>Our Core Values</h2>
+            <ul>
+                <li><strong>Integrity:</strong> Upholding the highest ethical standards in all actions.</li>
+                <li><strong>Customer-Centric:</strong> Focusing on understanding and meeting unique customer needs.</li>
+                <li><strong>Innovation:</strong> Continuously seeking new and better ways to serve and protect clients.</li>
+                <li><strong>Community:</strong> Giving back and actively participating in community initiatives.</li>
+            </ul>
+        </section>
+
+        <section class="services">
+            <h2>Our Insurance Services</h2>
+            <p>Explore the diverse range of insurance services we offer to safeguard your life, property, and business:</p>
+            <ul>
+                <li>Life Insurance</li>
+                <li>Property Insurance</li>
+                <li>Business Insurance</li>
+                <li>Health Insurance</li>
+                <li>Auto Insurance</li>
+                <li>Travel Insurance</li>
+                <li>Specialty Insurance (e.g., pet insurance, event insurance)</li>
+            </ul>
+        </section>
+
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <p>Get to know the experienced professionals behind our commitment to excellence in the insurance industry. Our team is dedicated to providing personalized and expert service to our clients.</p>
+        </section>
+
+        <section class="founders">
+            <h2>Our Founders</h2>
+            <p>The visionaries who established our company with a passion for providing top-notch insurance solutions. Meet them and learn about their journey in shaping the company.</p>
+        </section>
+
+        <section class="licenses">
+            <h2>Our Licenses</h2>
+            <p>We are proud to be licensed and regulated by the relevant authorities, ensuring compliance and trust. Our commitment to transparency and regulatory compliance sets us apart in the industry.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Feel free to reach out to our dedicated support team. We are here to help you with any inquiries or concerns you may have.</p>
+            <p>Email: info@mywebinsurancecompany.com</p>
+            <p><Phone:>+254 123-456-7890</Phone:> </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 mywebinsuranceCompany. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+                                                                                   ABOUT .CSS
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section {
+    width: 100%;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+                              				INQUIRY.HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inquiry.css">
+</head>
+<body>
+    <div class="inquiry-container">
+        <h1>Contact Us with Your Inquiries</h1>
+        <p>We are here to assist you. Please fill out the form below, and we will get back to you as soon as possible.</p>
+
+        <form action="submit_inquiry.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Inquiry:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </div>
+    
+</body>
+</html>
+
+				INQUIRY.CSS
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    position: relative;
+}
+
+.active {
+    color: #ffcc00;
+}
+
+.inquiry-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+				SERVICES.HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+    <header>
+      <div class="container">
+        <a href="insurance.html" class="logo">Company Logo</a>
+        <nav>
+          <ul>
+            <li><a href="#">Domestic Package</a></li>
+            <li><a href="#">Employer's Liability</a></li>
+            <li><a href="#">Medical Insurance</a></li>
+            <li><a href="#">Motor Insurance</a></li>
+            <li><a href="#">Find a Branch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  
+    <main>
+      <div class="container">
+        <section class="banner">
+          <h1><a href="payment form.html">Make a payment</a></h1>
+        </section>
+        <section class="services">
+          <h2>Insurance Coverage</h2>
+          <ul>
+            <li>Fire & Perils Cover</li>
+            <li>Industrial All Risks</li>
+            <li>Theft and burglary Policy</li>
+            <li>Professional Indemnity</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+  
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 mywebinsuranceCompany. All rights reserved.</p>
+        <ul>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </footer>
+  
+  </body>
+  </html>
+
+				SERVICES.CSS
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding-top: 40px;
+  }
+  
+  .banner {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  
+  .services h2 {
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .services li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+
+					PAYMENT FORM.HTML
+
+<html>
+<head>
+<title>PAYMENT FORM</title>
+</head>
+<body>
+<h1> FILL IN THE DETAILS TO BE COVERED BY OUR INSURANCE COMPANY</h1>
+<body>
+<form>
+ NAME: <input type="text" name ="name "/>
+<br>
+ID_NUMBER: <input type="text" name ="second name "/>
+<br>
+ SEX:<input type="radio" name="subject" value="male"> Male
+<input type="radio" name="subject" value="female"> female
+<br>
+<h2> SELECT MODE OF PAYMENT</h2>
+<input type="checkbox" name="CASH" value="on"> CASH
+<br>
+<input type="checkbox" name="CHEQUE" value="on"> CHEQUE
+<br>
+<input type="checkbox" name="CREDIT CARD" value="on">CREDIT CARD
+<br>
+<input type="checkbox" name="M-PESA" value="on"> M-PESA
+<h3> SELECT COUNTRY OF PAYMENT</h3>
+<select name="dropdown">
+<option value="KENYA" selected>KENYA</option>
+<option value="UGANDA">UGANDA</option>
+<option value="TANZANIA" selected>TANZANIA</option>
+</select>
+</form>
+</body>
+</html>
